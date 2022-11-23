@@ -1,6 +1,6 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
-* {
-  color: solid #3C373B
+*{
+  color: #3C373B
 }
 
 
@@ -9,7 +9,7 @@ h1 {
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
   font-size: 60px;
-  align-content: center;
+  text-align:  center;
 }
 
 h2,
@@ -44,13 +44,13 @@ img {
   /*======= create a margin propery.  Set the value to 20px */
 }
 
-.container {
+.container-header {
   /*======= create a width property. Set the value to 605px */
   width: 605px;
   margin: 0 auto;
 }
 
-header nav a {
+.container-header nav a {
   margin: 0 10px;
   border: 1px solid lightgray;
   padding: 20px;
@@ -64,7 +64,7 @@ header nav a {
 
 }
 
- header nav a:hover {
+ .container-header nav a:hover {
   background-color:white;
   color: pink;
   /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
@@ -75,6 +75,7 @@ header nav a {
 */
 .about-section {
   margin-top: 20px;
+  
 }
 .contact-section {
   border-top: 1px dashed black;
