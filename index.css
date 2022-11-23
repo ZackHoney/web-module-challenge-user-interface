@@ -18,6 +18,7 @@ h4,
 h5,
 h6 {
   font-family: 'Gaegu', cursive;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Update the font size to 30px */
@@ -44,13 +45,13 @@ img {
   /*======= create a margin propery.  Set the value to 20px */
 }
 
-.container-header {
+.container {
   /*======= create a width property. Set the value to 605px */
   width: 605px;
   margin: 0 auto;
 }
 
-.container-header nav a {
+.container header nav a {
   margin: 0 10px;
   border: 1px solid lightgray;
   padding: 20px;
@@ -64,7 +65,7 @@ img {
 
 }
 
- .container-header nav a:hover {
+ .container header nav a:hover {
   background-color:white;
   color: pink;
   /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
@@ -140,6 +141,6 @@ a:hover {
 
 footer .footer-content .copyright {
   padding: 20px 0;
-  align-content: center;
+  text-align: center;
   /*======= center the text here */
 }
